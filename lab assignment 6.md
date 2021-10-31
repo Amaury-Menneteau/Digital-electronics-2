@@ -27,11 +27,26 @@ https://github.com/Amaury-Menneteau/Digital-electronics-2
 1. Code listing with syntax highlighting of two custom character definition:
 
 ```c
-/* Variables ---------------------------------------------------------*/
-// Custom character definition
-uint8_t customChar[16] = {
-    // WRITE YOUR CODE HERE
+uint8_t customChara[8] = {
+    0b11011,
+    0b11011,
+    0b00000,
+    0b00100,
+    0b00100,
+    0b10001,
+    0b10001,
+    0b11111
+};
 
+uint8_t customCharb[8] = {
+    0b11011,
+    0b11011,
+    0b00000,
+    0b00100,
+    0b00100,
+    0b00000,
+    0b11111,
+    0b10001
 };
 ```
 
