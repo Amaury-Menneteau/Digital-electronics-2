@@ -58,5 +58,11 @@ Consider a kitchen alarm with an LCD, one LED and three push buttons: start, +1 
 
 1. Scheme of kitchen alarm; do not forget the supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values.
 
+AVR devide : Arduino UNO
+3 push buttton
+1 LED
+4 resistance of 200 Ohms
+1 LCD
+
 ![jdjdjdjd](https://user-images.githubusercontent.com/91128744/139596398-4db4dda1-d45f-44da-9d09-224214bb214d.png)
 
