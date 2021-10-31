@@ -1,14 +1,14 @@
-# Lab 6: YOUR_FIRSTNAME FAMILYNAME
+# Lab 6: Amaury Menneteau
 
 Link to your `Digital-electronics-2` GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/...)
+https://github.com/Amaury-Menneteau/Digital-electronics-2
 
 
 ### LCD display module
 
 1. In your words, describe what ASCII table is.
-   * ASCII
+   * ASCII : It is a table where there are numbers linked to letters or symbols, in a code the numbers are used to determine what symbol the user want to write.
 
 2. (Hand-drawn) picture of time signals between ATmega328P and LCD keypad shield (HD44780 driver) when transmitting three character data `De2`.
 
