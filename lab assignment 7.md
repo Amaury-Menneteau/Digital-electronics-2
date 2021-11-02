@@ -13,10 +13,10 @@ Link to this file in your GitHub repository:
    | :-: | :-: | :-: | :-: |
    | Right  | 0&nbsp;V | 0   |  |
    | Up     | 0.495&nbsp;V | 101 |  |
-   | Down   |    1.202 V   |     |  |
-   | Left   |    1.969 V   |     |  |
-   | Select |    3.181 V   |     |  |
-   | none   |    5 V   |     |  |
+   | Down   |    1.202 V   | 246 |  |
+   | Left   |    1.969 V   | 403 |  |
+   | Select |    3.181 V   | 651 |  |
+   | none   |    5 V   | 1023 |  |
 
 2. Code listing of ACD interrupt service routine for sending data to the LCD/UART and identification of the pressed button. Always use syntax highlighting and meaningful comments:
 
