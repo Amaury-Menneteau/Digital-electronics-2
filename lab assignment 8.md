@@ -41,7 +41,13 @@ ISR(TIMER1_OVF_vect)
     case STATE_IDLE:
         addr++;
         // If slave address is between 8 and 119 then move to SEND state
-
+        if((8 <= addr) && (addr <= 119) ){
+            state = STATE_SEND;
+        }
+        else{
+            addr = 0;
+            state = STATE_IDLE;
+        }
         break;
     
     // Transmit I2C slave address and get result
@@ -57,13 +63,22 @@ ISR(TIMER1_OVF_vect)
         twi_stop();
         /* Test result from I2C bus. If it is 0 then move to ACK state, 
          * otherwise move to IDLE */
-
+        if(result == 0){
+            state = STATE_ACK;
+        }
+        else{
+            uart_puts("-- ");
+            state = STATE_IDLE;
+        }
         break;
 
     // A module connected to the bus was found
     case STATE_ACK:
         // Send info about active I2C slave to UART and move to IDLE
-
+        itoa(addr,uart_string,16); //convert to hexa
+        uart_puts(uart_string); // send it to uart
+        uart_puts(" ");
+        state = STATE_IDLE;
         break;
 
     // If something unexpected happens then move to IDLE
