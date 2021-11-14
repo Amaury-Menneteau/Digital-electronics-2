@@ -1,8 +1,8 @@
-# Lab 8: YOUR_FIRSTNAME LASTNAME
+# Lab 8: Amaury Menneteau
 
 Link to this file in your GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/...)
+https://github.com/Amaury-Menneteau/Digital-electronics-2
 
 ### Arduino Uno pinout
 
@@ -14,7 +14,8 @@ Link to this file in your GitHub repository:
    * SPI pins
    * external interrupt pins INT0, INT1
 
-   ![your figure](Images/arduino_uno_pinout.png) 
+   ![lab8](https://user-images.githubusercontent.com/91128744/141697075-9aa8a12d-e709-4dde-8d42-05fa6914dd5d.png)
+
 
 ### I2C
 
